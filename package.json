@@ -1,0 +1,23 @@
+{
+  "name": "smart-light-service",
+  "version": "1.0.0",
+  "description": "interact with feit smart light bulb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdsanchez93/smart-light-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdsanchez93/smart-light-service/issues"
+  },
+  "homepage": "https://github.com/jdsanchez93/smart-light-service#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "tuyapi": "github:codetheweb/tuyapi"
+  }
+}
