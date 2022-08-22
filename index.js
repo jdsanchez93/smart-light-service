@@ -54,7 +54,7 @@ async function setSmartLight(smartLightData, id, key) {
         });
 
         // Find device on network
-        device.find()
+        device.find({timeout: 1.5})
             .then(() => {
                 console.log('device found')
                 // Connect to device
