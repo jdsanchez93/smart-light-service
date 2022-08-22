@@ -1,4 +1,4 @@
-FROM node:16
+FROM arm64v8/node:16-alpine
 WORKDIR /usr/local/app
 COPY package*.json .
 RUN npm install
